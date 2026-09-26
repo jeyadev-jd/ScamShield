@@ -38,7 +38,7 @@ Collection**: English messages collected in the UK around 2012. That creates thr
 
 | Problem | What goes wrong |
 |---|---|
-| **Domain shift** | A model that has never seen "UPI", "KYC" or "Aadhaar" misses Indian scams. We measure a **33–52% accuracy drop**. |
+| **Domain shift** | A model that has never seen "UPI", "KYC" or "Aadhaar" misses Indian scams. I measure a **33–52% accuracy drop**. |
 | **Obfuscation** | Scammers write `0TP`, `b@nk`, `v e r i f y` exactly because word-based filters stop recognising the word. |
 | **Opacity** | A bare "spam" label gives no reason to trust it and no advice on what to do. |
 
