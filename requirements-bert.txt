@@ -1,0 +1,7 @@
+# Optional: DistilBERT experiments only (ml/train_bert.py). Not needed by the API.
+# GPU (CUDA 12.8 build; works with newer drivers):
+#   pip install torch --index-url https://download.pytorch.org/whl/cu128
+# CPU only:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch
+transformers

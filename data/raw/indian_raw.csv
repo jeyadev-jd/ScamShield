@@ -1,0 +1,29 @@
+text,label,category,source,is_synthetic
+"URGENT! Your SBI KYC exp1red. Account will be blocked today. Verify 0TP at sbi-kyc.xyz",smishing,kyc,synthetic,1
+"Dear SBI user, your YONO account is suspended. Update PAN immediately: sbi-yono-update.top",smishing,otp_account,synthetic,1
+"IndiaPost: Your parcel is held at customs. Pay Rs 49 fee within 24 hrs or it will be returned: bit.ly/ip-redel",smishing,courier,synthetic,1
+"This is CBI Mumbai. A parcel with narcotics is registered on your Aadhaar. Arrest warrant issued. Call immediately on video to avoid arrest.",smishing,digital_arrest,synthetic,1
+"Part time job! Earn Rs 3000 daily income by liking YouTube videos. Simple task. Contact on Telegram now.",smishing,job_task,synthetic,1
+"C o n g r a t s! You w0n Rs 25,00,000 in KBC l0ttery. Claim prize: tinyurl.com/kbc-claim",smishing,prize_lottery,synthetic,1
+"Hi, I sent Rs 5000 to your UPI by mistake. Please accept the collect request I sent to return it. Urgent, my mother is in hospital.",smishing,upi_payment,synthetic,1
+"Dear consumer your electricity power will be disconnected tonight at 9.30pm because previous month bill was not updated. Call officer 9876543210",smishing,phishing,synthetic,1
+"Get flat 60% off on winter wear. Sale ends Sunday. Shop now at myntra.com T&C",spam,promotional,synthetic,1
+"Dear Customer, your A/c XX4521 is debited by Rs 1,250.00 on 24Sep26 by UPI ref 426811. Not you? Call 1800111109. -SBI",ham,legit,synthetic,1
+"482913 is the OTP for your HDFC Bank transaction of Rs 2,999. Valid for 5 mins. Do not share this OTP with anyone.",ham,legit,synthetic,1
+"Your Amazon order #408-1182 has been shipped and will arrive by Sat, 27 Sep. Track in the Amazon app.",ham,legit,synthetic,1
+"PNR 4521887602, Train 12627, 28-Sep, SL S4 32. Chart prepared. Happy journey. -IRCTC",ham,legit,synthetic,1
+"Recharge with Rs 349 and get 2GB/day for 28 days. Recharge on MyJio app or jio.com. T&C apply.",spam,promotional,synthetic,1
+"Dear Customer, Your SBI account or SBI Credit Card closed today contact now and update your Aadhaar or PAN details in the below link.",smishing,kyc,news:tribuneindia,0
+Your package has arrived at the warehouse and we attempted delivery twice but were unable due to incomplete address information. Please update your address details within 48 hours otherwise your package will be returned. Please update the address in the link: indiapost-go-in.one/index. After the update is complete we will re-deliver within 24 hours.,smishing,courier,pib_factcheck,0
+India Post Payment Bank KYC Login Dear user your India post payment bank account has been blocked today please updated your PAN Card immediately click here the link- http//surl.li/iccpf,smishing,kyc,news:india.com,0
+"Dear SBI Customer, Your KYC verification has expired. Your account will be blocked within 24 hours. Update now: bit.ly/sbi-kyc-update-2026 - SBI-ALERTS",smishing,kyc,published_example,1
+"Dear customer, your BOI account has been restricted. Contact customer care now on 9XXXXXXXXX for urgent assistance.",smishing,otp_account,published_example,1
+SBI ALERT: Your account will be blocked today. Verify immediately at http://bit.ly/sbi-verify to avoid suspension.,smishing,otp_account,published_example,1
+"Congratulations! You have won Rs 4,999 cashback. Click now to claim reward and complete UPI verification.",smishing,upi_payment,published_example,1
+"Dear customer, share your OTP immediately to stop account suspension. Failure to do so may block your banking access.",smishing,otp_account,published_example,1
+Your KYC is pending. Download secure banking app update here: http://short.link/update.apk,smishing,kyc,published_example,1
+Your parcel could not be delivered. Update your address now at http://bit.ly/delivery-fix to avoid return.,smishing,courier,published_example,1
+"Dear consumer, your electricity will be disconnected today at 9:30pm due to unpaid bill of last month. Pay immediately to avoid disconnection, BSES.",smishing,phishing,published_example,1
+"Dear Consumer, Your electricity will be disconnected tonight 9:30 PM due to non-update of your previous month bill. Please immediately contact our officer http://bses-update.example/pay -BSES",smishing,phishing,published_example,1
+"Your power supply will be cut today 8:00 PM. Outstanding amount Rs 3,470. Pay now to avoid disconnection. https://adani-electricity-pay.example Helpline: +91 9XXXXXXXXX",smishing,phishing,published_example,1
+"Bill of Rs 2,840 is pending. Last date: today midnight. Avoid power cut, pay here: http://tatapower-bill.example Last reminder.",smishing,phishing,published_example,1

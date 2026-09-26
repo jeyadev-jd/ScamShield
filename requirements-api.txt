@@ -1,0 +1,8 @@
+# Runtime dependencies for the deployed API only. Pinned to the training venv:
+# pickled models must be loaded with the scikit-learn version that trained them.
+fastapi==0.141.1
+joblib==1.6.0
+numpy==2.5.3
+pandas==3.0.6
+scikit-learn==1.9.1
+uvicorn[standard]==0.54.0

@@ -1,0 +1,15 @@
+config,normalizer,attack,test,accuracy,f1_macro,scam_recall
+DistilBERT,False,clean,test_indian,0.9819,0.9676,0.9887
+DistilBERT,False,leet,test_indian,0.9809,0.9656,0.9893
+DistilBERT,False,homoglyph,test_indian,0.9795,0.9637,0.9855
+DistilBERT,False,spacing,test_indian,0.9559,0.9259,0.9568
+DistilBERT,False,dots,test_indian,0.9492,0.9155,0.9494
+DistilBERT,False,zero_width,test_indian,0.9819,0.9676,0.9887
+DistilBERT,False,mixed,test_indian,0.9777,0.9605,0.9839
+DistilBERT + normalizer,True,clean,test_indian,0.9832,0.9698,0.9905
+DistilBERT + normalizer,True,leet,test_indian,0.9832,0.9698,0.9905
+DistilBERT + normalizer,True,homoglyph,test_indian,0.9832,0.9698,0.9905
+DistilBERT + normalizer,True,spacing,test_indian,0.9832,0.9698,0.9905
+DistilBERT + normalizer,True,dots,test_indian,0.9832,0.9698,0.9905
+DistilBERT + normalizer,True,zero_width,test_indian,0.9832,0.9698,0.9905
+DistilBERT + normalizer,True,mixed,test_indian,0.9833,0.9701,0.9907

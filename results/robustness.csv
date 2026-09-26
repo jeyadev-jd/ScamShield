@@ -1,0 +1,29 @@
+config,char,normalizer,attack,accuracy,f1_macro,scam_recall
+Word only,False,False,clean,0.9744,0.9538,0.9867
+Word only,False,False,leet,0.9731,0.9519,0.9835
+Word only,False,False,homoglyph,0.9685,0.9444,0.9774
+Word only,False,False,spacing,0.9345,0.8926,0.9368
+Word only,False,False,dots,0.9347,0.8928,0.937
+Word only,False,False,zero_width,0.969,0.9452,0.9782
+Word only,False,False,mixed,0.9647,0.9382,0.973
+Word + normalizer,False,True,clean,0.9744,0.9539,0.9865
+Word + normalizer,False,True,leet,0.9744,0.9539,0.9865
+Word + normalizer,False,True,homoglyph,0.9744,0.9539,0.9865
+Word + normalizer,False,True,spacing,0.9744,0.9539,0.9865
+Word + normalizer,False,True,dots,0.9743,0.9536,0.9863
+Word + normalizer,False,True,zero_width,0.9744,0.9539,0.9865
+Word + normalizer,False,True,mixed,0.9744,0.9539,0.9865
+Word + char,True,False,clean,0.9781,0.9597,0.9929
+Word + char,True,False,leet,0.9789,0.9614,0.9927
+Word + char,True,False,homoglyph,0.9777,0.9594,0.9911
+Word + char,True,False,spacing,0.9748,0.9544,0.9871
+Word + char,True,False,dots,0.9708,0.9477,0.9824
+Word + char,True,False,zero_width,0.9786,0.9608,0.9921
+Word + char,True,False,mixed,0.9774,0.9588,0.9907
+Word + char + normalizer,True,True,clean,0.9776,0.9592,0.9903
+Word + char + normalizer,True,True,leet,0.9774,0.9589,0.9901
+Word + char + normalizer,True,True,homoglyph,0.9776,0.9592,0.9903
+Word + char + normalizer,True,True,spacing,0.9776,0.9592,0.9903
+Word + char + normalizer,True,True,dots,0.9774,0.9589,0.9901
+Word + char + normalizer,True,True,zero_width,0.9776,0.9592,0.9903
+Word + char + normalizer,True,True,mixed,0.9776,0.9592,0.9903

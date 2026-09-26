@@ -1,0 +1,8 @@
+.venv
+frontend
+tests
+data/raw
+**/__pycache__
+.claude
+report
+ppt

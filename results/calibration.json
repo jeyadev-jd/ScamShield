@@ -1,0 +1,383 @@
+{
+  "nb": {
+    "calibrated": {
+      "ece": 0.0696,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.30000000000000004,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.30000000000000004,
+          "hi": 0.4,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6000000000000001,
+          "n": 29,
+          "confidence": 0.5422395090412709,
+          "accuracy": 0.3103448275862069
+        },
+        {
+          "lo": 0.6000000000000001,
+          "hi": 0.7000000000000001,
+          "n": 37,
+          "confidence": 0.6442082130094189,
+          "accuracy": 0.5405405405405406
+        },
+        {
+          "lo": 0.7000000000000001,
+          "hi": 0.8,
+          "n": 57,
+          "confidence": 0.7596311856513567,
+          "accuracy": 0.7192982456140351
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 218,
+          "confidence": 0.871165181451775,
+          "accuracy": 0.7844036697247706
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "n": 5720,
+          "confidence": 0.913632014679058,
+          "accuracy": 0.9818181818181818
+        }
+      ]
+    },
+    "raw": {
+      "ece": 0.022,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.30000000000000004,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.30000000000000004,
+          "hi": 0.4,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6000000000000001,
+          "n": 31,
+          "confidence": 0.540540754915957,
+          "accuracy": 0.45161290322580644
+        },
+        {
+          "lo": 0.6000000000000001,
+          "hi": 0.7000000000000001,
+          "n": 34,
+          "confidence": 0.6511646026524844,
+          "accuracy": 0.6176470588235294
+        },
+        {
+          "lo": 0.7000000000000001,
+          "hi": 0.8,
+          "n": 50,
+          "confidence": 0.7569381393553064,
+          "accuracy": 0.64
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 81,
+          "confidence": 0.8539026628719147,
+          "accuracy": 0.7777777777777778
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "n": 5865,
+          "confidence": 0.9979056788161382,
+          "accuracy": 0.9778346121057119
+        }
+      ]
+    }
+  },
+  "lr": {
+    "calibrated": {
+      "ece": 0.0095,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.30000000000000004,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.30000000000000004,
+          "hi": 0.4,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6000000000000001,
+          "n": 67,
+          "confidence": 0.5514355203908171,
+          "accuracy": 0.582089552238806
+        },
+        {
+          "lo": 0.6000000000000001,
+          "hi": 0.7000000000000001,
+          "n": 92,
+          "confidence": 0.6495917865284674,
+          "accuracy": 0.717391304347826
+        },
+        {
+          "lo": 0.7000000000000001,
+          "hi": 0.8,
+          "n": 99,
+          "confidence": 0.7608731820932723,
+          "accuracy": 0.8787878787878788
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 241,
+          "confidence": 0.8573141875320485,
+          "accuracy": 0.946058091286307
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "n": 5562,
+          "confidence": 0.9910198468181532,
+          "accuracy": 0.9938870909744696
+        }
+      ]
+    },
+    "raw": {
+      "ece": 0.007,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.30000000000000004,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.30000000000000004,
+          "hi": 0.4,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6000000000000001,
+          "n": 55,
+          "confidence": 0.5518732689707913,
+          "accuracy": 0.6181818181818182
+        },
+        {
+          "lo": 0.6000000000000001,
+          "hi": 0.7000000000000001,
+          "n": 67,
+          "confidence": 0.6576626269846793,
+          "accuracy": 0.8208955223880597
+        },
+        {
+          "lo": 0.7000000000000001,
+          "hi": 0.8,
+          "n": 88,
+          "confidence": 0.7577540590626342,
+          "accuracy": 0.8295454545454546
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 182,
+          "confidence": 0.8573559324023103,
+          "accuracy": 0.9175824175824175
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "n": 5669,
+          "confidence": 0.9917357657184818,
+          "accuracy": 0.9936496736637855
+        }
+      ]
+    }
+  },
+  "svm": {
+    "calibrated": {
+      "ece": 0.0089,
+      "bins": [
+        {
+          "lo": 0.0,
+          "hi": 0.1,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.1,
+          "hi": 0.2,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.2,
+          "hi": 0.30000000000000004,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.30000000000000004,
+          "hi": 0.4,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.4,
+          "hi": 0.5,
+          "n": 0,
+          "confidence": null,
+          "accuracy": null
+        },
+        {
+          "lo": 0.5,
+          "hi": 0.6000000000000001,
+          "n": 72,
+          "confidence": 0.5513976647478095,
+          "accuracy": 0.625
+        },
+        {
+          "lo": 0.6000000000000001,
+          "hi": 0.7000000000000001,
+          "n": 66,
+          "confidence": 0.658031418188119,
+          "accuracy": 0.7424242424242424
+        },
+        {
+          "lo": 0.7000000000000001,
+          "hi": 0.8,
+          "n": 81,
+          "confidence": 0.7546950398920371,
+          "accuracy": 0.8395061728395061
+        },
+        {
+          "lo": 0.8,
+          "hi": 0.9,
+          "n": 209,
+          "confidence": 0.8574852824436565,
+          "accuracy": 0.9473684210526315
+        },
+        {
+          "lo": 0.9,
+          "hi": 1.0,
+          "n": 5633,
+          "confidence": 0.9912532822441397,
+          "accuracy": 0.994319190484644
+        }
+      ]
+    }
+  }
+}

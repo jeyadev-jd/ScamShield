@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "IBM Plex Serif", Georgia, serif;
+  --font-sans: "IBM Plex Sans", system-ui, sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-rule: var(--rule);
+  --color-sheet: var(--sheet);
+  --color-high: var(--high);
+  --color-med: var(--med);
+  --color-low: var(--low);
+  --color-stamp: var(--stamp);
+  --radius-sm: 2px;
+}
+
+:root {
+  --paper: #F4F1EA;
+  --sheet: #FBF9F4;
+  --ink: #1A1A1A;
+  --muted: #5F5B52;
+  --rule: #D9D4C7;
+  --high: #C8102E;
+  --med: #D98E04;
+  --low: #1F6F4A;
+  --stamp: #1E3A8A;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #141414;
+    --sheet: #1C1C1B;
+    --ink: #E8E4DA;
+    --muted: #9C978B;
+    --rule: #34322D;
+    --high: #D9535F;
+    --med: #D6A23E;
+    --low: #4F9A76;
+    --stamp: #7D93D1;
+  }
+}
+
+html, body { background: var(--paper); color: var(--ink); }
+body { font-family: var(--font-sans); -webkit-font-smoothing: antialiased; }
+* { transition-duration: 150ms; }
+
+.lined {
+  background-image: repeating-linear-gradient(to bottom, transparent 0 27px, var(--rule) 27px 28px);
+  line-height: 28px;
+}

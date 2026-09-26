@@ -1,0 +1,57 @@
+config,model,normalizer,attack,test,accuracy,f1_macro,scam_recall
+RNN,rnn,False,clean,test_indian,0.9592,0.9273,0.9746
+RNN,rnn,False,leet,test_indian,0.9569,0.9239,0.9709
+RNN,rnn,False,homoglyph,test_indian,0.9396,0.8974,0.95
+RNN,rnn,False,spacing,test_indian,0.8126,0.7447,0.798
+RNN,rnn,False,dots,test_indian,0.8126,0.7447,0.798
+RNN,rnn,False,zero_width,test_indian,0.9487,0.9109,0.9611
+RNN,rnn,False,mixed,test_indian,0.9033,0.8474,0.9064
+RNN + normalizer,rnn,True,clean,test_indian,0.9622,0.9294,0.9877
+RNN + normalizer,rnn,True,leet,test_indian,0.9622,0.9294,0.9879
+RNN + normalizer,rnn,True,homoglyph,test_indian,0.9622,0.9294,0.9877
+RNN + normalizer,rnn,True,spacing,test_indian,0.9622,0.9294,0.9877
+RNN + normalizer,rnn,True,dots,test_indian,0.9614,0.928,0.9867
+RNN + normalizer,rnn,True,zero_width,test_indian,0.9622,0.9294,0.9877
+RNN + normalizer,rnn,True,mixed,test_indian,0.9621,0.9291,0.9875
+RNN + attention,rnn_attn,False,clean,test_indian,0.9673,0.9425,0.9758
+RNN + attention,rnn_attn,False,leet,test_indian,0.9503,0.9165,0.9536
+RNN + attention,rnn_attn,False,homoglyph,test_indian,0.9457,0.9095,0.9483
+RNN + attention,rnn_attn,False,spacing,test_indian,0.8659,0.8071,0.8519
+RNN + attention,rnn_attn,False,dots,test_indian,0.8659,0.8071,0.8519
+RNN + attention,rnn_attn,False,zero_width,test_indian,0.9548,0.9232,0.9592
+RNN + attention,rnn_attn,False,mixed,test_indian,0.9226,0.877,0.9203
+RNN + attention + normalizer,rnn_attn,True,clean,test_indian,0.972,0.9491,0.9867
+RNN + attention + normalizer,rnn_attn,True,leet,test_indian,0.9721,0.9494,0.9867
+RNN + attention + normalizer,rnn_attn,True,homoglyph,test_indian,0.972,0.9491,0.9867
+RNN + attention + normalizer,rnn_attn,True,spacing,test_indian,0.972,0.9491,0.9867
+RNN + attention + normalizer,rnn_attn,True,dots,test_indian,0.9716,0.9485,0.9863
+RNN + attention + normalizer,rnn_attn,True,zero_width,test_indian,0.972,0.9491,0.9867
+RNN + attention + normalizer,rnn_attn,True,mixed,test_indian,0.9716,0.9485,0.9863
+BiLSTM,lstm,False,clean,test_indian,0.9698,0.9456,0.9833
+BiLSTM,lstm,False,leet,test_indian,0.9682,0.9432,0.98
+BiLSTM,lstm,False,homoglyph,test_indian,0.9639,0.9363,0.9744
+BiLSTM,lstm,False,spacing,test_indian,0.9089,0.8569,0.9084
+BiLSTM,lstm,False,dots,test_indian,0.9089,0.8569,0.9084
+BiLSTM,lstm,False,zero_width,test_indian,0.9682,0.9432,0.9798
+BiLSTM,lstm,False,mixed,test_indian,0.955,0.9221,0.9639
+BiLSTM + normalizer,lstm,True,clean,test_indian,0.9716,0.9487,0.9855
+BiLSTM + normalizer,lstm,True,leet,test_indian,0.9716,0.9487,0.9855
+BiLSTM + normalizer,lstm,True,homoglyph,test_indian,0.9716,0.9487,0.9855
+BiLSTM + normalizer,lstm,True,spacing,test_indian,0.9716,0.9487,0.9855
+BiLSTM + normalizer,lstm,True,dots,test_indian,0.9713,0.9481,0.9851
+BiLSTM + normalizer,lstm,True,zero_width,test_indian,0.9716,0.9487,0.9855
+BiLSTM + normalizer,lstm,True,mixed,test_indian,0.9716,0.9487,0.9855
+BiLSTM + attention,lstm_attn,False,clean,test_indian,0.9723,0.9511,0.9798
+BiLSTM + attention,lstm_attn,False,leet,test_indian,0.9589,0.9298,0.9629
+BiLSTM + attention,lstm_attn,False,homoglyph,test_indian,0.9522,0.9194,0.955
+BiLSTM + attention,lstm_attn,False,spacing,test_indian,0.8683,0.8108,0.8531
+BiLSTM + attention,lstm_attn,False,dots,test_indian,0.8683,0.8108,0.8531
+BiLSTM + attention,lstm_attn,False,zero_width,test_indian,0.9591,0.9301,0.9631
+BiLSTM + attention,lstm_attn,False,mixed,test_indian,0.9304,0.8882,0.928
+BiLSTM + attention + normalizer,lstm_attn,True,clean,test_indian,0.97,0.9457,0.9845
+BiLSTM + attention + normalizer,lstm_attn,True,leet,test_indian,0.97,0.9457,0.9843
+BiLSTM + attention + normalizer,lstm_attn,True,homoglyph,test_indian,0.97,0.9457,0.9845
+BiLSTM + attention + normalizer,lstm_attn,True,spacing,test_indian,0.97,0.9457,0.9845
+BiLSTM + attention + normalizer,lstm_attn,True,dots,test_indian,0.9696,0.9451,0.9841
+BiLSTM + attention + normalizer,lstm_attn,True,zero_width,test_indian,0.97,0.9457,0.9845
+BiLSTM + attention + normalizer,lstm_attn,True,mixed,test_indian,0.97,0.9457,0.9845

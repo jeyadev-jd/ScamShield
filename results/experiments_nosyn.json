@@ -1,0 +1,863 @@
+[
+  {
+    "exp": "E1",
+    "model": "nb",
+    "task": "binary",
+    "test": "test_uci",
+    "train_secs": 1.6,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 968,
+    "accuracy": 0.9835,
+    "precision_macro": 0.9595,
+    "recall_macro": 0.9082,
+    "f1_macro": 0.9321,
+    "ece": 0.0079,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        897,
+        4
+      ],
+      [
+        12,
+        55
+      ]
+    ],
+    "scam_recall": 0.8209,
+    "false_alarm_rate": 0.0044,
+    "roc_auc": 0.9587
+  },
+  {
+    "exp": "E2",
+    "model": "nb",
+    "task": "binary",
+    "test": "test_indian",
+    "train_secs": 1.6,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 6061,
+    "accuracy": 0.6148,
+    "precision_macro": 0.6431,
+    "recall_macro": 0.7544,
+    "f1_macro": 0.5791,
+    "ece": 0.3024,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        981,
+        36
+      ],
+      [
+        2299,
+        2745
+      ]
+    ],
+    "scam_recall": 0.5442,
+    "false_alarm_rate": 0.0354,
+    "roc_auc": 0.9104
+  },
+  {
+    "exp": "E1",
+    "model": "lr",
+    "task": "binary",
+    "test": "test_uci",
+    "train_secs": 2.1,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 968,
+    "accuracy": 0.9845,
+    "precision_macro": 0.9675,
+    "recall_macro": 0.9088,
+    "f1_macro": 0.9359,
+    "ece": 0.0053,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        898,
+        3
+      ],
+      [
+        12,
+        55
+      ]
+    ],
+    "scam_recall": 0.8209,
+    "false_alarm_rate": 0.0033,
+    "roc_auc": 0.9888
+  },
+  {
+    "exp": "E2",
+    "model": "lr",
+    "task": "binary",
+    "test": "test_indian",
+    "train_secs": 2.1,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 6061,
+    "accuracy": 0.6519,
+    "precision_macro": 0.6532,
+    "recall_macro": 0.7744,
+    "f1_macro": 0.6093,
+    "ece": 0.2247,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        975,
+        42
+      ],
+      [
+        2068,
+        2976
+      ]
+    ],
+    "scam_recall": 0.59,
+    "false_alarm_rate": 0.0413,
+    "roc_auc": 0.9402
+  },
+  {
+    "exp": "E1",
+    "model": "svm",
+    "task": "binary",
+    "test": "test_uci",
+    "train_secs": 2.0,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 968,
+    "accuracy": 0.9845,
+    "precision_macro": 0.9675,
+    "recall_macro": 0.9088,
+    "f1_macro": 0.9359,
+    "ece": 0.0035,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        898,
+        3
+      ],
+      [
+        12,
+        55
+      ]
+    ],
+    "scam_recall": 0.8209,
+    "false_alarm_rate": 0.0033,
+    "roc_auc": 0.989
+  },
+  {
+    "exp": "E2",
+    "model": "svm",
+    "task": "binary",
+    "test": "test_indian",
+    "train_secs": 2.0,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 6061,
+    "accuracy": 0.6565,
+    "precision_macro": 0.6552,
+    "recall_macro": 0.7779,
+    "f1_macro": 0.6133,
+    "ece": 0.22,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        977,
+        40
+      ],
+      [
+        2042,
+        3002
+      ]
+    ],
+    "scam_recall": 0.5952,
+    "false_alarm_rate": 0.0393,
+    "roc_auc": 0.9432
+  },
+  {
+    "exp": "E3",
+    "model": "nb",
+    "task": "binary",
+    "test": "test_uci",
+    "train_secs": 4.3,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 968,
+    "accuracy": 0.9762,
+    "precision_macro": 0.8978,
+    "recall_macro": 0.9251,
+    "f1_macro": 0.9109,
+    "ece": 0.0049,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        887,
+        14
+      ],
+      [
+        9,
+        58
+      ]
+    ],
+    "scam_recall": 0.8657,
+    "false_alarm_rate": 0.0155,
+    "roc_auc": 0.9691
+  },
+  {
+    "exp": "E3",
+    "model": "nb",
+    "task": "binary",
+    "test": "test_ms",
+    "train_secs": 4.3,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 211,
+    "accuracy": 0.9858,
+    "precision_macro": 0.9877,
+    "recall_macro": 0.9837,
+    "f1_macro": 0.9855,
+    "ece": 0.0273,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        89,
+        3
+      ],
+      [
+        0,
+        119
+      ]
+    ],
+    "scam_recall": 1.0,
+    "false_alarm_rate": 0.0326,
+    "roc_auc": 0.9986
+  },
+  {
+    "exp": "E3",
+    "model": "nb",
+    "task": "binary",
+    "test": "test_indian",
+    "train_secs": 4.3,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 6061,
+    "accuracy": 0.9698,
+    "precision_macro": 0.9486,
+    "recall_macro": 0.9426,
+    "f1_macro": 0.9456,
+    "ece": 0.0098,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        917,
+        100
+      ],
+      [
+        83,
+        4961
+      ]
+    ],
+    "scam_recall": 0.9835,
+    "false_alarm_rate": 0.0983,
+    "roc_auc": 0.9842
+  },
+  {
+    "exp": "E3",
+    "model": "lr",
+    "task": "binary",
+    "test": "test_uci",
+    "train_secs": 5.2,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 968,
+    "accuracy": 0.9886,
+    "precision_macro": 0.9714,
+    "recall_macro": 0.9386,
+    "f1_macro": 0.9543,
+    "ece": 0.0062,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        898,
+        3
+      ],
+      [
+        8,
+        59
+      ]
+    ],
+    "scam_recall": 0.8806,
+    "false_alarm_rate": 0.0033,
+    "roc_auc": 0.9927
+  },
+  {
+    "exp": "E3",
+    "model": "lr",
+    "task": "binary",
+    "test": "test_ms",
+    "train_secs": 5.2,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 211,
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "ece": 0.0166,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        92,
+        0
+      ],
+      [
+        0,
+        119
+      ]
+    ],
+    "scam_recall": 1.0,
+    "false_alarm_rate": 0.0,
+    "roc_auc": 1.0
+  },
+  {
+    "exp": "E3",
+    "model": "lr",
+    "task": "binary",
+    "test": "test_indian",
+    "train_secs": 5.2,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 6061,
+    "accuracy": 0.9832,
+    "precision_macro": 0.972,
+    "recall_macro": 0.9675,
+    "f1_macro": 0.9697,
+    "ece": 0.0101,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        960,
+        57
+      ],
+      [
+        45,
+        4999
+      ]
+    ],
+    "scam_recall": 0.9911,
+    "false_alarm_rate": 0.056,
+    "roc_auc": 0.9896
+  },
+  {
+    "exp": "E3",
+    "model": "svm",
+    "task": "binary",
+    "test": "test_uci",
+    "train_secs": 4.6,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 968,
+    "accuracy": 0.9886,
+    "precision_macro": 0.9649,
+    "recall_macro": 0.9455,
+    "f1_macro": 0.955,
+    "ece": 0.0073,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        897,
+        4
+      ],
+      [
+        7,
+        60
+      ]
+    ],
+    "scam_recall": 0.8955,
+    "false_alarm_rate": 0.0044,
+    "roc_auc": 0.9908
+  },
+  {
+    "exp": "E3",
+    "model": "svm",
+    "task": "binary",
+    "test": "test_ms",
+    "train_secs": 4.6,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 211,
+    "accuracy": 1.0,
+    "precision_macro": 1.0,
+    "recall_macro": 1.0,
+    "f1_macro": 1.0,
+    "ece": 0.0138,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        92,
+        0
+      ],
+      [
+        0,
+        119
+      ]
+    ],
+    "scam_recall": 1.0,
+    "false_alarm_rate": 0.0,
+    "roc_auc": 1.0
+  },
+  {
+    "exp": "E3",
+    "model": "svm",
+    "task": "binary",
+    "test": "test_indian",
+    "train_secs": 4.6,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 6061,
+    "accuracy": 0.9856,
+    "precision_macro": 0.9759,
+    "recall_macro": 0.9725,
+    "f1_macro": 0.9742,
+    "ece": 0.0103,
+    "labels": [
+      "0",
+      "1"
+    ],
+    "confusion": [
+      [
+        969,
+        48
+      ],
+      [
+        39,
+        5005
+      ]
+    ],
+    "scam_recall": 0.9923,
+    "false_alarm_rate": 0.0472,
+    "roc_auc": 0.9899
+  },
+  {
+    "exp": "E3",
+    "model": "nb",
+    "task": "multi",
+    "test": "test_uci",
+    "train_secs": 4.3,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 968,
+    "accuracy": 0.9721,
+    "precision_macro": 0.9394,
+    "recall_macro": 0.8607,
+    "f1_macro": 0.8961,
+    "ece": 0.0505,
+    "labels": [
+      "ham",
+      "smishing",
+      "spam"
+    ],
+    "confusion": [
+      [
+        892,
+        3,
+        6
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        11,
+        7,
+        49
+      ]
+    ],
+    "scam_recall": 0.8358,
+    "false_alarm_rate": 0.01
+  },
+  {
+    "exp": "E3",
+    "model": "nb",
+    "task": "multi",
+    "test": "test_ms",
+    "train_secs": 4.3,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 211,
+    "accuracy": 0.9242,
+    "precision_macro": 0.8814,
+    "recall_macro": 0.9249,
+    "f1_macro": 0.8969,
+    "ece": 0.0736,
+    "labels": [
+      "ham",
+      "smishing",
+      "spam"
+    ],
+    "confusion": [
+      [
+        91,
+        1,
+        0
+      ],
+      [
+        2,
+        78,
+        11
+      ],
+      [
+        0,
+        2,
+        26
+      ]
+    ],
+    "scam_recall": 0.9832,
+    "false_alarm_rate": 0.0109,
+    "roc_auc": 0.9846
+  },
+  {
+    "exp": "E3",
+    "model": "nb",
+    "task": "multi",
+    "test": "test_indian",
+    "train_secs": 4.3,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 6061,
+    "accuracy": 0.9187,
+    "precision_macro": 0.8979,
+    "recall_macro": 0.9104,
+    "f1_macro": 0.9039,
+    "ece": 0.017,
+    "labels": [
+      "ham",
+      "smishing",
+      "spam"
+    ],
+    "confusion": [
+      [
+        925,
+        20,
+        72
+      ],
+      [
+        34,
+        1146,
+        106
+      ],
+      [
+        75,
+        186,
+        3497
+      ]
+    ],
+    "scam_recall": 0.9784,
+    "false_alarm_rate": 0.0905,
+    "roc_auc": 0.9722
+  },
+  {
+    "exp": "E3",
+    "model": "lr",
+    "task": "multi",
+    "test": "test_uci",
+    "train_secs": 11.9,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 968,
+    "accuracy": 0.9783,
+    "precision_macro": 0.9846,
+    "recall_macro": 0.8502,
+    "f1_macro": 0.9059,
+    "ece": 0.0322,
+    "labels": [
+      "ham",
+      "smishing",
+      "spam"
+    ],
+    "confusion": [
+      [
+        900,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        9,
+        11,
+        47
+      ]
+    ],
+    "scam_recall": 0.8657,
+    "false_alarm_rate": 0.0011
+  },
+  {
+    "exp": "E3",
+    "model": "lr",
+    "task": "multi",
+    "test": "test_ms",
+    "train_secs": 11.9,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 211,
+    "accuracy": 0.9242,
+    "precision_macro": 0.876,
+    "recall_macro": 0.9002,
+    "f1_macro": 0.8859,
+    "ece": 0.0887,
+    "labels": [
+      "ham",
+      "smishing",
+      "spam"
+    ],
+    "confusion": [
+      [
+        92,
+        0,
+        0
+      ],
+      [
+        1,
+        80,
+        10
+      ],
+      [
+        1,
+        4,
+        23
+      ]
+    ],
+    "scam_recall": 0.9832,
+    "false_alarm_rate": 0.0,
+    "roc_auc": 0.9899
+  },
+  {
+    "exp": "E3",
+    "model": "lr",
+    "task": "multi",
+    "test": "test_indian",
+    "train_secs": 11.9,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 6061,
+    "accuracy": 0.9569,
+    "precision_macro": 0.9479,
+    "recall_macro": 0.9495,
+    "f1_macro": 0.9486,
+    "ece": 0.052,
+    "labels": [
+      "ham",
+      "smishing",
+      "spam"
+    ],
+    "confusion": [
+      [
+        979,
+        6,
+        32
+      ],
+      [
+        22,
+        1179,
+        85
+      ],
+      [
+        44,
+        72,
+        3642
+      ]
+    ],
+    "scam_recall": 0.9869,
+    "false_alarm_rate": 0.0374,
+    "roc_auc": 0.9883
+  },
+  {
+    "exp": "E3",
+    "model": "svm",
+    "task": "multi",
+    "test": "test_uci",
+    "train_secs": 6.2,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 968,
+    "accuracy": 0.9773,
+    "precision_macro": 0.9578,
+    "recall_macro": 0.8635,
+    "f1_macro": 0.905,
+    "ece": 0.0265,
+    "labels": [
+      "ham",
+      "smishing",
+      "spam"
+    ],
+    "confusion": [
+      [
+        897,
+        0,
+        4
+      ],
+      [
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        10,
+        49
+      ]
+    ],
+    "scam_recall": 0.8806,
+    "false_alarm_rate": 0.0044
+  },
+  {
+    "exp": "E3",
+    "model": "svm",
+    "task": "multi",
+    "test": "test_ms",
+    "train_secs": 6.2,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 211,
+    "accuracy": 0.9289,
+    "precision_macro": 0.8794,
+    "recall_macro": 0.9121,
+    "f1_macro": 0.8921,
+    "ece": 0.0608,
+    "labels": [
+      "ham",
+      "smishing",
+      "spam"
+    ],
+    "confusion": [
+      [
+        92,
+        0,
+        0
+      ],
+      [
+        0,
+        80,
+        11
+      ],
+      [
+        0,
+        4,
+        24
+      ]
+    ],
+    "scam_recall": 1.0,
+    "false_alarm_rate": 0.0,
+    "roc_auc": 0.9922
+  },
+  {
+    "exp": "E3",
+    "model": "svm",
+    "task": "multi",
+    "test": "test_indian",
+    "train_secs": 6.2,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "n": 6061,
+    "accuracy": 0.9592,
+    "precision_macro": 0.9523,
+    "recall_macro": 0.9509,
+    "f1_macro": 0.9516,
+    "ece": 0.0327,
+    "labels": [
+      "ham",
+      "smishing",
+      "spam"
+    ],
+    "confusion": [
+      [
+        974,
+        5,
+        38
+      ],
+      [
+        20,
+        1187,
+        79
+      ],
+      [
+        30,
+        75,
+        3653
+      ]
+    ],
+    "scam_recall": 0.9901,
+    "false_alarm_rate": 0.0423,
+    "roc_auc": 0.9899
+  }
+]

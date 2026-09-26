@@ -1,0 +1,36 @@
+{
+  "binary": {
+    "model": "svm",
+    "cv_f1_macro": 0.9847,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "trained_rows": 8433
+  },
+  "multi": {
+    "model": "svm",
+    "cv_f1_macro": 0.9352,
+    "char": true,
+    "features": true,
+    "normalizer": true,
+    "trained_rows": 8433
+  },
+  "risk": {
+    "text_model": "svm"
+  },
+  "category": {
+    "trained_rows": 2606,
+    "classes": [
+      "courier",
+      "digital_arrest",
+      "job_task",
+      "kyc",
+      "legit",
+      "otp_account",
+      "phishing",
+      "prize_lottery",
+      "promotional",
+      "upi_payment"
+    ]
+  }
+}
